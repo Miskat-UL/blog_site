@@ -90,6 +90,16 @@ body{
     margin-top: 60px;
     
 }
+.blogs_section h2{
+    margin-left: 39px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: fit-content;
+    border-bottom: 1px solid gray;
+}
+
+
 .head_share{
     display: flex;
     justify-content: space-between;
@@ -113,7 +123,8 @@ body{
 }
 
 .blog_title{
-    margin-left: 10px;
+    margin-left: 40px;
+    width: 86% ;
 }
 
 .share_list{
@@ -207,6 +218,7 @@ body{
     width: 80%;
     background-color: #f0f0f0;
     padding: 30px 10px;
+    border-radius: 4px;
 
 }
 .side_menu_bar h3{
@@ -242,3 +254,16 @@ body{
 
 
 
+/* newsletter */
+
+.subscribe{
+    width: 80%;
+    margin-left: 100px;
+}
+.indent{
+    display: inline-block;
+}
+.subs_email{
+    width: 50%;
+    padding: 10px 0;
+}
