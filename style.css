@@ -2,14 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --body_background_color:#171717;
+    --body_font_color:#EDEDED;
+    --red:#DA0037;
+    --dark_grey:#444444;
+}
+
+
+
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
     /* background-color: #F5F6F7; */
-    background-color:#171717;
-    color: #EDEDED;
+    background-color:var(--body_background_color);
+    color: var(--body_font_color);
 }
 
 *{
@@ -22,7 +32,7 @@ body{
     justify-content: space-between;
     font-family: sans-serif;
     font-size: 15px;
-    background-color: #DA0037;
+    background-color: var(--red);
 }
 
 .navigation_side_bar{
@@ -45,7 +55,7 @@ body{
     text-decoration: none;
 }
 .nav_links:hover{
-    color: #EDEDED;
+    color: var(--body_font_color);
 }
 
 .accounts_side_bar{
@@ -95,11 +105,11 @@ body{
     border: 1px solid gray;
     border-radius: 4px;
     text-decoration: none;
-    color: #EDEDED;
+    color: var(--body_font_color);
     transition: .5s ease-in;
 }
 .logo_section a>span{
-    color: #DA0037;
+    color: var(--red);
 }
 
 
@@ -178,13 +188,13 @@ body{
 
 
 .fa-newspaper{
-    color: #EDEDED;
+    color: var(--body_font_color);
     padding-right: 5px;
 }
 
 .news_class_link{
     text-decoration: none;
-    color: #DA0037;
+    color: var(--red);
 }
 
 
@@ -199,7 +209,7 @@ body{
     color:#0A66C2;
 }
 .fa-instagram:hover{
-    color:#D00062;
+    color:var(--red);
 }
 
 .fa-twitter,.fa-github,.fa-linkedin,.fa-instagram{
@@ -229,13 +239,13 @@ body{
 .side_menu_bar{
     font-family: 'Source Serif Pro', serif;
     width: 80%;
-    background-color: #444444;
+    background-color: var(--dark_grey);
     padding: 30px 10px;
     border-radius: 4px;
 
 }
 .side_menu_bar h3{
-    color: #EDEDED;
+    color: var(--body_font_color);
     margin-bottom: 20px;
 }
 
@@ -260,7 +270,7 @@ body{
     color: gray;
 }
 .side_list_links:hover{
-    color: #EDEDED;
+    color: var(--body_font_color);
     border-bottom: 1px solid #EDEDED;
 }
 
@@ -270,12 +280,13 @@ body{
 /* newsletter */
 .newsletter{
     margin-top: 100px;
-    background-color: #444444;
+    background-color: var(--dark_grey);
     width: 70%;
     padding: 30px 0;
-    margin-bottom: 500px;
+
     border-radius: 4px;
     padding-bottom: 50px;
+    transform: translateX(150px);
 }
 .newsletter h2{
     font-family: cursive;
@@ -292,8 +303,8 @@ body{
 }
 .subscribe a{
     padding: 11.3px;
-    background-color: #DA0037;
-    color: #EDEDED;
+    background-color: var(--red);
+    color: var(--body_font_color);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     border-top-right-radius: 4px;
@@ -305,7 +316,7 @@ body{
 }
 .subscribe input{
     margin: 0;
-    background-color: #EDEDED;
+    background-color: var(--body_font_color);
     border: none;
     padding: 13px;
     transform: translatex(4px);
@@ -314,7 +325,7 @@ body{
 }
 .subscribe input::placeholder{
     font-family: 'Roboto', sans-serif;
-    color: #171717;
+    color: var(--body_background_color);
     font-size: 17px;
     
 }
@@ -349,7 +360,7 @@ body{
     border-radius: 4px
 }
 .search .input{
-    background-color: #EDEDED;
+    background-color: var(--body_font_color);
     border: 0;
     font-size: 18px;
     height: 40px;
@@ -386,4 +397,39 @@ body{
 
 .search.active .btn{
     transform: translateX(198px);
+}
+
+/* 
+career */
+.career_path{
+    margin-top: 100px;
+    padding: 100px;
+    background-color: #DEDEDE;
+    color: var(--body_background_color);
+    font-family: 'Lato';
+
+
+}
+.career_path h2{
+    width: fit-content;
+    margin:0 auto;
+    line-height: 2;
+    color: #1B120F;
+}
+.career_path p{
+    width: fit-content;
+    margin:0 auto;
+    line-height: 2;
+    color: #1B120F;
+}
+.career{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    grid-gap: 100px;
+}
+.grid_items img{
+    width: 100%;
 }
