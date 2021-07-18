@@ -7,8 +7,9 @@ body{
     padding: 0;
     box-sizing: border-box;
     
-    background-color: #F5F6F7;
-    
+    /* background-color: #F5F6F7; */
+    background-color:#171717;
+    color: #EDEDED;
 }
 
 *{
@@ -21,10 +22,12 @@ body{
     justify-content: space-between;
     font-family: sans-serif;
     font-size: 15px;
+    background-color: #DA0037;
 }
 
 .navigation_side_bar{
     margin-left: 5%;
+
 
 }
 
@@ -42,7 +45,7 @@ body{
     text-decoration: none;
 }
 .nav_links:hover{
-    color: #319949;
+    color: #EDEDED;
 }
 
 .accounts_side_bar{
@@ -77,13 +80,28 @@ body{
 }
 .logo_section div>a:hover{
     background-color: #f0f0f0;
+    color: black;
     
 }
 
 .logo_section div{
     flex: .40;
-    transform: translateX(100px);
+    margin-left: 250px;
+    line-height: 5;
 }
+.logo_section a{
+    line-height: 4;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #EDEDED;
+    transition: .5s ease-in;
+}
+.logo_section a>span{
+    color: #DA0037;
+}
+
 
 .blogs_section{
     width: 65%;
@@ -157,26 +175,16 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.logo_section a{
-    line-height: 4;
-    padding: 10px;
-    border: 1px solid gray;
-    border-radius: 4px;
-    text-decoration: none;
-    color: black;
-}
-.logo_section a>span{
-    color: blue;
-}
+
 
 .fa-newspaper{
-    color: blue;
+    color: #EDEDED;
     padding-right: 5px;
 }
 
 .news_class_link{
     text-decoration: none;
-    color: blue;
+    color: #DA0037;
 }
 
 
@@ -192,6 +200,11 @@ body{
 }
 .fa-instagram:hover{
     color:#D00062;
+}
+
+.fa-twitter,.fa-github,.fa-linkedin,.fa-instagram{
+    color: white;
+    font-size: 30px;
 }
 
 
@@ -216,13 +229,13 @@ body{
 .side_menu_bar{
     font-family: 'Source Serif Pro', serif;
     width: 80%;
-    background-color: #f0f0f0;
+    background-color: #444444;
     padding: 30px 10px;
     border-radius: 4px;
 
 }
 .side_menu_bar h3{
-    
+    color: #EDEDED;
     margin-bottom: 20px;
 }
 
@@ -247,23 +260,80 @@ body{
     color: gray;
 }
 .side_list_links:hover{
-    color: #333;
-    border-bottom: 1px solid #333;
+    color: #EDEDED;
+    border-bottom: 1px solid #EDEDED;
 }
 
 
 
 
 /* newsletter */
-
+.newsletter{
+    margin-top: 100px;
+    background-color: #444444;
+    width: 70%;
+    padding: 30px 0;
+    margin-bottom: 500px;
+    border-radius: 4px;
+    padding-bottom: 50px;
+}
+.newsletter h2{
+    font-family: cursive;
+    font-weight: 300;
+    
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
 .subscribe{
     width: 80%;
     margin-left: 100px;
+    
+}
+.subscribe a{
+    padding: 11.3px;
+    background-color: #DA0037;
+    color: #EDEDED;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+    transform: translateY(1px);
+    
+    
+}
+.subscribe input{
+    margin: 0;
+    background-color: #EDEDED;
+    border: none;
+    padding: 13px;
+    transform: translatex(4px);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.subscribe input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: #171717;
+    font-size: 17px;
+    
+}
+.subscribe input:focus{
+    outline: none;
 }
 .indent{
     display: inline-block;
 }
 .subs_email{
-    width: 50%;
+    width: 70%;
     padding: 10px 0;
 }
+    
+
+.accounts{
+    color: white;
+    position: absolute;
+    right: 0;
+    margin-right: 200px;
+}
+
