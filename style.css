@@ -415,12 +415,17 @@ career */
     margin:0 auto;
     line-height: 2;
     color: #1B120F;
+    font-size: 30px;
+    font-family: monospace;
 }
 .career_path p{
     width: fit-content;
     margin:0 auto;
     line-height: 2;
     color: #1B120F;
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-size: 20px;
 }
 .career{
     display: grid;
@@ -430,6 +435,45 @@ career */
     margin: 0 auto;
     grid-gap: 100px;
 }
+.grid_items{
+    
+    
+}
 .grid_items img{
     width: 100%;
+}
+.grid_items h3{
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+}
+.learn_list{
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 300;
+}
+.grid_items button{
+    color:#787A91;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: .1s ease-in;
+    
+}
+
+.grid_items button:hover{
+    background-color: var(--red);
+    color: var(--body_background_color);
+    transform: translateY(-2px);
+}
+.grid_items button:active{
+    transform: translateY(0px);
 }
