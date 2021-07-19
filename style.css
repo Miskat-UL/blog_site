@@ -477,3 +477,45 @@ career */
 .grid_items button:active{
     transform: translateY(0px);
 }
+
+
+/* footer */
+
+
+.my_footer{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+    margin: 0 auto;
+    grid-gap: 50px;
+    
+    font-family: monospace;
+}
+.footer_grid{
+    padding: 70px 30px;
+    transition: .5s ease;
+}
+.footer_grid:hover{
+    background-color: #231F20;
+}
+.footer_grid img{
+    width: 60%;
+    
+}
+.my_footer h2{
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.my_footer h3{
+    margin-top: 10px;
+}
+.my_footer p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.my_footer a{
+    text-decoration: none;
+    color: var(--dark_grey);
+}
