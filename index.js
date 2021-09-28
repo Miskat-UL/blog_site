@@ -10,4 +10,8 @@ btn.addEventListener('click', () =>{
 
 var d = new Date();
 var n = d.getFullYear();
+var s = d.getSeconds()
+var m = d.getMinutes()
+var h = d.getHours()
+var all = (h+':'+m+':'+s)
 date.innerHTML= n

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -27,14 +29,11 @@
         </ul>
       </div>
 
-
-
       <div class="search">
-        <input type="text" class="input" placeholder="Search...">
+        <input type="text" class="input" placeholder="Search..." />
         <button class="btn">
-            <i class="fas fa-search"></i>
+          <i class="fas fa-search"></i>
         </button>
-
       </div>
       <!-- <div class="accounts_side_bar">
         <ul>
@@ -54,7 +53,6 @@
       </div> -->
     </nav>
 
-
     <main>
       <section class="logo_section">
         <h3>mi-blogs.com</h3>
@@ -68,16 +66,24 @@
       <section class="accounts">
         <ul>
           <li class="icon_lists">
-            <a class="icon_links" href="#"><i class="fab fa-github"></i></a>
+            <a class="icon_links" href="https://github.com/Miskat-UL"
+              ><i class="fab fa-github"></i
+            ></a>
           </li>
           <li class="icon_lists">
-            <a class="icon_links" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="icon_links" href="https://twitter.com/show73mik"
+              ><i class="fab fa-twitter"></i
+            ></a>
           </li>
           <li class="icon_lists">
             <a class="icon_links" href="#"><i class="fab fa-instagram"></i></a>
           </li>
           <li class="icon_lists">
-            <a class="icon_links" href="#"><i class="fab fa-linkedin"></i></a>
+            <a
+              class="icon_links"
+              href="https://www.linkedin.com/in/miskat-ul-islam-84922a161/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
           </li>
         </ul>
       </section>
@@ -86,72 +92,34 @@
           <h2>Recent Posts</h2>
           <div class="blog_title">
             <div class="head_share">
-              <h3>
-                Python most powerful functions: map(), filter(), and reduce() in 5
-                minutes
-              </h3>
+              <a href="#">
+                <h1 class="display-4">
+                  Python most powerful functions: map(), filter(), and reduce() in
+                  5 minutes
+                </h1>
+              </a>
               <ul>
-                <li class="share_list"><a class="share_list_link" href="#"><i class="fas fa-file-download"></i></a></li>
-                <li class="share_list"><a class="share_list_link" href="#"><i class="fas fa-share-alt"></i></a></li>
-                <li class="share_list"><a class="share_list_link" href="#"><i class="fas fa-ellipsis-v"></i></a></li>
+                <li class="share_list">
+                  <a class="share_list_link" href="#"
+                    ><i class="far fa-heart"> 32</i></a
+                  >
+                </li>
+                <li class="share_list">
+                  <a class="share_list_link" href="#"
+                    ><i class="far fa-comment-alt"> 12</i></a
+                  >
+                </li>
               </ul>
             </div>
-            
+
             <p class="time_created">SADI . 2 hours ago</p>
             <p>
               Python includes a number of predefined built-in functions that can
-              be utilized by the end-user by simply calling them. These functions
-              not only make programmers’ jobs easier, but they help establish a
-              common coding environment. In this tutorial, you’ll learn about
-              three of Python’s most powerful functions: map(), filter(), and
-              reduce().
-            </p>
-            <p class="news_class">
-              <i class="far fa-newspaper"></i
-              ><a class="news_class_link" href="">View full coverage</a>
-            </p>
-          </div>
-          <div class="blog_title">
-            <div class="head_share">
-              <h3>Most powerful Python Functions apply() and lambda()</h3>
-              <ul>
-                <li class="share_list"><a class="share_list_link" href="#"><i class="fas fa-file-download"></i></a></li>
-                <li class="share_list"><a class="share_list_link" href="#"><i class="fas fa-share-alt"></i></a></li>
-                <li class="share_list"><a class="share_list_link" href="#"><i class="fas fa-ellipsis-v"></i></a></li>
-              </ul>
-            </div>
-            
-            <p class="time_created">Riyad . 2 hours ago</p>
-            <p>
-              pandas is a most powerful, easy, and flexible to use open-source
-              data analysis tool, built on top of the Python programming language.
-            </p>
-            <p class="news_class">
-              <i class="far fa-newspaper"></i
-              ><a class="news_class_link" href="">View full coverage</a>
-            </p>
-          </div>
-          <div class="blog_title">
-            <div class="head_share">
-              <h3>
-                Python *args and **kwargs in 2 minutes For Data Science Beginner
-              </h3>
-              <ul>
-                <li class="share_list"><a class="share_list_link" href="#"><i class="fas fa-file-download"></i></a></li>
-                <li class="share_list"><a class="share_list_link" href="#"><i class="fas fa-share-alt"></i></a></li>
-                <li class="share_list"><a class="share_list_link" href="#"><i class="fas fa-ellipsis-v"></i></a></li>
-              </ul>
-            </div>
-            
-            <p class="time_created">SADI . 2 hours ago</p>
-            <p>
-              Data science is not only about implementing high-level libraries in
-              Python, but also about understanding the fundamentals and their
-              intermediate aspects. Most often, the aspiring Data Scientist makes
-              a mistake by diving directly into the high-level data science and AI
-              libraries instead of solidifying the basics of the language. That’s
-              why it is crucial for the developers to enhance the basic features
-              of any programming language before jumping into any specialization.
+              be utilized by the end-user by simply calling them. These
+              functions not only make programmers’ jobs easier, but they help
+              establish a common coding environment. In this tutorial, you’ll
+              learn about three of Python’s most powerful functions: map(),
+              filter(), and reduce().
             </p>
             <p class="news_class">
               <i class="far fa-newspaper"></i
@@ -164,17 +132,11 @@
           <div class="side_menu_bar">
             <h3>Popular posts</h3>
             <ul>
-              <li class="side_list"><a class="side_list_links" href="#">Lollipop Charts: Advanced Data Visualization in Python</a></li>
-              <li class="side_list"><a class="side_list_links" href="#">Donut Plots : Data Visualization With Python</a></li>
-              <li class="side_list"><a class="side_list_links" href="#">Support Vector Machine: Introduction</a></li>
-              <li class="side_list"><a class="side_list_links" href="#">40 Questions to test a Data Scientist on Clustering Techniques (Skill test Solution)</a></li>
-              <li class="side_list"><a class="side_list_links" href="#">45 Questions to test a data scientist on basics of Deep Learning (along with solution)</a></li>
-              <li class="side_list"><a class="side_list_links" href="#">Commonly used Machine Learning Algorithms (with Python and R Codes)</a></li>
-              <li class="side_list"><a class="side_list_links" href="#">30 Questions to test a data scientist on Tree Based Models</a></li>
-              <li class="side_list"><a class="side_list_links" href="#">25 Questions to test a Data Scientist on Support Vector Machines</a></li>
-              <li class="side_list"><a class="side_list_links" href="#">What are the odds that you know about the odds?</a></li>
-              <li class="side_list"><a class="side_list_links" href="#">Python most powerful functions: map(), filter(), and reduce() in 5 minutes</a></li>
-             
+              <li class="side_list">
+                <a class="side_list_links" href="#"
+                  >Lollipop Charts: Advanced Data Visualization in Python</a
+                >
+              </li>
             </ul>
           </div>
         </section>
@@ -183,22 +145,70 @@
       <section class="newsletter">
         <h2>Subscribe to our newsletter</h2>
         <div class="subscribe">
-            <input class="indent subs_email" type="email" placeholder="Your Email Here">
+          <input
+            class="indent subs_email"
+            type="email"
+            placeholder="Your Email Here"
+          />
           <a class="indent subs_button" href="#">Subscribe</a>
         </div>
-      </section>  
-      
+      </section>
+      <div class="card">
+        <div class="card-header">My Card</div>
+        <div class="card-body">
+          <h4 class="card-title">Card Title</h4>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+            perspiciatis.
+          </p>
+          <a class="btn btn-outline-danger" href="#">Read More</a>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col grid_items" style="border:1px solid #333"><h3>Learn Web Development</h3>
+          <img src="images/web.png" alt="pic not loaded" />
+          <ul>
+            <li class="learn_list">- Learn HTML</li>
+            <li class="learn_list">- Learn CSS</li>
+            <li class="learn_list">- Learn Javascript</li>
+            <li class="learn_list">- Learn MySQL</li>
+          </ul>
+          <button>Click here to see full details</button></div>
+        <div class="col grid_items" style="border:1px solid #333">
+          <h3>Learn App Depelopment</h3>
+            <img src="images/app.jpg"  alt="" />
+            <ul>
+              <li class="learn_list">- Learn Java</li>
+              <li class="learn_list">- Learn Flutter</li>
+              <li class="learn_list">- Learn Dart packages</li>
+              <li class="learn_list">- Learn Firebase</li>
+            </ul>
+            <button>Click here to see full details</button>
+        </div>
+        <div class="col grid_items" style="border:1px solid #333">
+          <h3>Documentations</h3>
+            <img
+              src="images/documentation.jpg"
 
-
-
+              alt="not loaded"
+            />
+            <ul>
+              <li class="learn_list">- documentation</li>
+              <li class="learn_list">- CSS documentation</li>
+              <li class="learn_list">- JS documentation</li>
+              <li class="learn_list">- python documentation</li>
+              <li class="learn_list">- ASK python</li>
+            </ul>
+            <button>Click here to see full details</button>
+      </div>
       <section class="career_path">
         <h2>Choose you path</h2>
         <p>Be a programmer</p>
         <div class="career">
           <div class="grid_items">
             <h3>Learn Web Development</h3>
-            <img src="images/web.png" alt="pic not loaded">
+            <img src="images/web.png" alt="pic not loaded" />
             <ul>
               <li class="learn_list">- Learn HTML</li>
               <li class="learn_list">- Learn CSS</li>
@@ -209,7 +219,7 @@
           </div>
           <div class="grid_items">
             <h3>Learn App Depelopment</h3>
-            <img src="images/app.jpg" height= '170px' alt="">
+            <img src="images/app.jpg" height="170px" alt="" />
             <ul>
               <li class="learn_list">- Learn Java</li>
               <li class="learn_list">- Learn Flutter</li>
@@ -220,7 +230,11 @@
           </div>
           <div class="grid_items">
             <h3>Documentations</h3>
-            <img src="images/documentation.jpg" height= '170px' alt="not loaded">
+            <img
+              src="images/documentation.jpg"
+              height="170px"
+              alt="not loaded"
+            />
             <ul>
               <li class="learn_list">- documentation</li>
               <li class="learn_list">- CSS documentation</li>
@@ -233,9 +247,6 @@
         </div>
       </section>
     </main>
-
-
-
 
     <footer>
       <div class="my_footer">
@@ -254,7 +265,9 @@
               <a class="icon_links" href="#"><i class="fab fa-twitter"></i></a>
             </li>
             <li class="icon_lists">
-              <a class="icon_links" href="#"><i class="fab fa-instagram"></i></a>
+              <a class="icon_links" href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </li>
             <li class="icon_lists">
               <a class="icon_links" href="#"><i class="fab fa-linkedin"></i></a>
@@ -262,13 +275,17 @@
           </ul>
         </div>
         <div class="footer_grid">
-          <h2>From </h2>
-          <img src="images/bd.png" alt="">
-          <h4 style="font-family:sans-serif;margin-top: 10px;">&copy; showmik <span id='date'></span></h4>
+          <h2>From</h2>
+          <img src="images/bd.png" alt="" />
+          <h4 style="font-family: sans-serif; margin-top: 10px">
+            &copy; showmik <span id="date"></span>
+          </h4>
         </div>
       </div>
     </footer>
 
     <script src="index.js"></script>
+
+    
   </body>
 </html>
